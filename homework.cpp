@@ -3,7 +3,7 @@
 * contains the following procedures to work with lists:
 * display, append, insert, remove, length
 */
-#include "listhelpers.hpp"
+//#include "listhelpers.hpp"
 
 #include <cstdlib>   // srand, rand
 #include <ctime>     // time
@@ -11,9 +11,24 @@
 #include <string>    // std::string, std::getline
 #include <vector>    // std::vector
 
+
+
+
+
+void compare(input1, input2 )
+{
+if (input1 < input2)
+    {
+        std::cout << input1 << "is less than " << input2 << std::endl;
+    }
+}
+
+
+
 int main()
 {
     // Complete your homework here
+std::cin >> input1 >> input2;
 
     
     return 0;
